@@ -1,0 +1,252 @@
+{
+  "name": "Gravity Rush 2 - Xbox Button Prompts",
+  "version": "1.0.0",
+  "title_id": "CUSA03694",
+  "app_ver": "01.11",
+  "python_minimum": "3.10",
+  "files": [
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "font/Gravity2_Gaiji.otf",
+      "original_sha256": "f8cf8bfcc68e843e4ef1fc834c694e212d4e7d1004daee74e304692991ce270b",
+      "modified_sha256": "2fc970fb04ba37277b6850ed578217861c369c23588f7fe00f65022cdbe73d32",
+      "modified_size": 217816,
+      "delta": "deltas/00.json",
+      "delta_sha256": "d9687adb5ecce01cac2e4339aaf4fa8b92caa3f392946fc1812db32777f33b50"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/button_circle.gnf",
+      "original_sha256": "4a3be851aaaf5c95c678cd75bbb694b8fc71709dc34260297e9d48826fc83d14",
+      "modified_sha256": "242fd88c682372f159de770951d25ec595ebe9bb7292be43371c031a2954c76e",
+      "modified_size": 16640,
+      "delta": "deltas/01.json",
+      "delta_sha256": "72c3258d9050cf6a995d26b2ca8dedff65c03067040733dd6dd1db4e896f6ce2"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/button_cross.gnf",
+      "original_sha256": "9f87f8f515ccde23bd72c4d22ace19474ebe8beee105531eaa8373653158faa3",
+      "modified_sha256": "a3f2390e3accac271e0ccea59d1a076bc6ba8a2b280842d75548ec6683b93568",
+      "modified_size": 16640,
+      "delta": "deltas/02.json",
+      "delta_sha256": "107165fdace9f918a08c4475d34c19096b21c50b01fd64a67865feb725cd6b20"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/common_rlbtn.gnf",
+      "original_sha256": "42dd3edb18da6c090bfb9735e660e8226bf979a6e818effe69b3e0e8156d225e",
+      "modified_sha256": "557cf8b4b6a128833090b3c57093c4710d6baf891004010084d0b9362340cfd7",
+      "modified_size": 65792,
+      "delta": "deltas/03.json",
+      "delta_sha256": "2770afa20739eafde411f833d48d48f1a6edaccbaeebabe52b49edf5cc132799"
+    },
+    {
+      "archive": "Gravite2_Patch_Chunk0.psarc",
+      "name": "gcd/system_menu_keyset.gcdv",
+      "original_sha256": "30b8e2314cdb3ad6e4fe744e6c18dd4ff034b024b8b76c30fa59a1decba522c1",
+      "modified_sha256": "9f2576991d8c1c8faeecb733c4a7af11156b5f430cf57968e97e7dc36b326b59",
+      "modified_size": 628176,
+      "delta": "deltas/04.json",
+      "delta_sha256": "48fe84a2fd7779420f1721642e854f5bf2d38dfef735380aec6454059da13255"
+    },
+    {
+      "archive": "Gravite2_Patch_Chunk0.psarc",
+      "name": "gcd/system_menu_keyset_dlc.gcdv",
+      "original_sha256": "021f9473753084a93670793cd49a2b07dfbccc6d1b4d6ed9ff144d0abdb75bf6",
+      "modified_sha256": "7687fdfa8a67074fe68c22aee3b428972d3604e362c32f8990221a77a0273c08",
+      "modified_size": 397376,
+      "delta": "deltas/05.json",
+      "delta_sha256": "dd2ab34c55a6c6ac0396f82241a8fc4c032606436816a9e4f58af70e0a7e2fba"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_01.gnf",
+      "original_sha256": "4a4e0fc6063cc450db7b363a3369d69dbb0902941efdcad4d01e0420af58af50",
+      "modified_sha256": "fecc0a81f7fe4553f1a0bfe9dd72cb1979d6ef6c11c390f31a682080b3bbd808",
+      "modified_size": 65792,
+      "delta": "deltas/06.json",
+      "delta_sha256": "3a797e5c53237478b8b1a47bbba121a05923ce3879faea5312d42cbe88705943"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_01_b.gnf",
+      "original_sha256": "a5cdea89ddaf10b8235ebe228eeb5427d2ce85c3d475398810f74c8d0019df6b",
+      "modified_sha256": "5f3b330e1bd6be1b95f3d4bd79e38d39bbf88a7fbb11f219ae7d653fc3b73d33",
+      "modified_size": 16640,
+      "delta": "deltas/07.json",
+      "delta_sha256": "f0a055f4db384389730a068971736f096f4ebc2c9273cdf9a3506626b186c020"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_02.gnf",
+      "original_sha256": "d4e2fa70cf84c17bfd67d38f47f0c336c83232d97deb4891a29af5c02f4dcd51",
+      "modified_sha256": "d41483310d5e3629aec6f7a5f7d7e35bd5ee4316d9146cbc6b01e53a46109117",
+      "modified_size": 65792,
+      "delta": "deltas/08.json",
+      "delta_sha256": "0a4b68ce57a47ef4ba073937d2924f12a1ad3ff60092696620e4284a20e7e42b"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_02_b.gnf",
+      "original_sha256": "3894e46622d8cbf55496d5af884412d545ad322758d73e7775a501033064d4c3",
+      "modified_sha256": "2fe483b7968d00b4e452667cc4a2a161e17846bc3a257ddedf309597072f63f7",
+      "modified_size": 16640,
+      "delta": "deltas/09.json",
+      "delta_sha256": "392df3ea709d51a520f18f53ee8d4e08bac53d289be10034427764a4a893472c"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_03.gnf",
+      "original_sha256": "916b414227d57d8b4104dbf536e3dd449bcab09a943c894dd780b1440703e2a9",
+      "modified_sha256": "94dc75e115be98e4394a2c007b54b493e664a590cd7ea4cd8c2523a45a20789b",
+      "modified_size": 65792,
+      "delta": "deltas/10.json",
+      "delta_sha256": "4ad66b40e419d72afd91dc33daa76956fbc3e223464a0f2967e7144ef91eaa24"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_03_b.gnf",
+      "original_sha256": "8aefb1f056449f3872d4892194a1b08caa4457dc9c80750edd3f74680c80620d",
+      "modified_sha256": "a39e3ff4969781804173add6dbcac11ac2a7bc3547ce1b84c10f343d954b545b",
+      "modified_size": 16640,
+      "delta": "deltas/11.json",
+      "delta_sha256": "a1b946b14a9282e3e489b41f3e9cb844466e1ae79fb09f636ec4fa93bbbc4aa9"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_04.gnf",
+      "original_sha256": "23128c77d76ec9c509c5bc4e35f7e826debca618490c46326f2bc759f4b95112",
+      "modified_sha256": "a214ed6ade72dca20855e201250c7d3ac72ce8979cb1ed90201984eed40cecb6",
+      "modified_size": 65792,
+      "delta": "deltas/12.json",
+      "delta_sha256": "633d04449fdbdfe55c537e1d9818ea5193e1ca8512448a10ee15f623b4f581b3"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_04_b.gnf",
+      "original_sha256": "7291f1a37e249a397ea902d2cf9817a0abd99f68e6acd365521150bf7e34361d",
+      "modified_sha256": "51b9606dd592df92807aca6a9b617c836d7e6491894af02a1558639e58c8a67f",
+      "modified_size": 16640,
+      "delta": "deltas/13.json",
+      "delta_sha256": "3d1525382979186861148bb6d22f911aaac29c3222e2eaf58f4b3468ad79e899"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_05.gnf",
+      "original_sha256": "5a20f56b5b5ff1aeebe199e35f07028f157a7d845e1193ad88f2f6c1d9360b45",
+      "modified_sha256": "149831d0246f0e086df7defd2e3c495c31b13b006d16c81be7f8ce54f5cfe075",
+      "modified_size": 65792,
+      "delta": "deltas/14.json",
+      "delta_sha256": "c20771a530af7f5dbea91e0bc88f44a04ddbecc066a89acd066adc899079feb0"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_05_b.gnf",
+      "original_sha256": "0843123ab8296c4e813b766246a1c1554ce0dbf6c3298fd80b1fe3564c4ca71e",
+      "modified_sha256": "4d842fd83d5620c82b39430757b658eb2bbc9855d4798d58dfc51dacb820bf32",
+      "modified_size": 16640,
+      "delta": "deltas/15.json",
+      "delta_sha256": "9cb1b2925dd09b4464f586c9f1cd67555a64443e047f306c2d2aecdb4dae7f00"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_06.gnf",
+      "original_sha256": "c51e86041ec89fcf6267077937bec9a26acb166f0f7e1ff9a81ab0c7bc6d040b",
+      "modified_sha256": "370bc274129851f3ed22e081759c9b3582a5aead72384ee6b9577f5f0d914864",
+      "modified_size": 65792,
+      "delta": "deltas/16.json",
+      "delta_sha256": "a46660e0c27595608e0fe1096ecbb8a3e8b12a45ecda9d2c22abbaf597533f2c"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_06_b.gnf",
+      "original_sha256": "5381a62e68b58545627b41366d70286b10917ff71f9fb9eefac200c5cf478c58",
+      "modified_sha256": "f89ce6a31f9338a4458a040ed53a84218da6a48ce07944534a04a0bfd4c66d1a",
+      "modified_size": 16640,
+      "delta": "deltas/17.json",
+      "delta_sha256": "d75d17cae5807871cc5bc30a526525ba58b3df3ed77178541213152469c376b2"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_07.gnf",
+      "original_sha256": "a926b1729964f721fc29dc9038cd19f527df68e28ce81109516a42fc5145a169",
+      "modified_sha256": "55cf752bd1e69b6b28b3ed13344d1def39d2836dea54a04581e9c199d1701b60",
+      "modified_size": 65792,
+      "delta": "deltas/18.json",
+      "delta_sha256": "0ec5b28783ce49658dcceaf6325234c9b8e6bb13be1907c27c39ec4daad6b47e"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_07_b.gnf",
+      "original_sha256": "d68a2b41ac33b1fcd449af45d70b83f4297ce318babc7bf695eaa985b9268e98",
+      "modified_sha256": "64442e42a6afbe169e732d25fe6ba717ab25999ed7bdef66a03809eced824daf",
+      "modified_size": 16640,
+      "delta": "deltas/19.json",
+      "delta_sha256": "c9d28911ee7e87c4dd29423c89ef69f7b8d8ceb0b331744a597095d498a32c8c"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_08.gnf",
+      "original_sha256": "9aa7f57e3e359e4a698f469f047587dd421b7f9a878de9c65f809ce1aa837b5d",
+      "modified_sha256": "8910f0769981975af2c3c336f0d13320b0c6e940d031f603988349b19f172a99",
+      "modified_size": 65792,
+      "delta": "deltas/20.json",
+      "delta_sha256": "7eb0d6691546cadd3600ec0db559484e584aa81a43bcb7d994128ff0134c5509"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_08_b.gnf",
+      "original_sha256": "c55de90f2b497bc9b251f458a374d5d49decf8ee82572317d06d781832cf6407",
+      "modified_sha256": "1c3a6dac900f95de7f1c601c65797969203cdbfa8cc21cf7892de5d293fb1dd3",
+      "modified_size": 16640,
+      "delta": "deltas/21.json",
+      "delta_sha256": "cd6f79d751e9a363c43e22f551665ba3309116a11c357cd1ad1138ecfcf4007a"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_16.gnf",
+      "original_sha256": "3e94e281d90de135aa9d041b5f2ed2acacd6d1cb2d6b22834e7a31fdbd6ca6c1",
+      "modified_sha256": "53ae304dda6c9adcadeec3292fe64b5fea19f523e1f1be6ce1233577405253b0",
+      "modified_size": 65792,
+      "delta": "deltas/22.json",
+      "delta_sha256": "ba7547e6f63b936911a87fce1bbc63e0f47823363cd152f457b197c77e0fa68b"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_17.gnf",
+      "original_sha256": "abc38945332823612a6e6b8460c0bf623b0315c0811bc924252278b2b1241810",
+      "modified_sha256": "8e2ad7510b3765b4444c7cd20291e202fed9cb7cc0f3cea92ce8c3f51a92e256",
+      "modified_size": 65792,
+      "delta": "deltas/23.json",
+      "delta_sha256": "d44b5361d7e54f5d4adf07c5fa458be4c5ad91d40257214ce751231a1ba29a8f"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_19.gnf",
+      "original_sha256": "887e1a7990963a95a9e358dd6213dc16ef2f78eec9bd436e1eaac15563ba4e68",
+      "modified_sha256": "ba32ffca80173f4ce6b2246cd727992f148057101afe8b7f3ac1c47a647b0e8d",
+      "modified_size": 65792,
+      "delta": "deltas/24.json",
+      "delta_sha256": "83de295df28f7a88b2beef6536c66ffbacf8570bf2c8d4d53b16ba7d9264c01a"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_20.gnf",
+      "original_sha256": "f06dfebd724746badcccb77337f32967def5f0b7c66cd725b1abb5bd93fc2d8a",
+      "modified_sha256": "28a8314bcb3228e1b5313e02948d90b6b969c918724038883e71811326a83c76",
+      "modified_size": 65792,
+      "delta": "deltas/25.json",
+      "delta_sha256": "5d5e7c0a61f22af5d41117d93ce2d0a271fbc69457e089a72478e36922de6bfb"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/photomode_key_18.gnf",
+      "original_sha256": "ab36b6b8bc39aba6b20bcc563fcd7b5f7cc17ef92da1c21d2de80d77c42acc6b",
+      "modified_sha256": "5eb0dc1656cf4588860d54ad327cb246d3c6e17a20090814eb2511011dfeef4d",
+      "modified_size": 24832,
+      "delta": "deltas/26.json",
+      "delta_sha256": "e6cd78f9e724191515345c1ef4443342e1402b458daee50d02c946f8c7e68122"
+    }
+  ]
+}

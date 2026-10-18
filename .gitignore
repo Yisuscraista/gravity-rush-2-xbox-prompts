@@ -1,0 +1,31 @@
+# Python bytecode and local environments
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+
+# Local test/build output
+.pytest_cache/
+.coverage
+htmlcov/
+build/
+dist/
+*.zip
+
+# Never publish game archives, backups, or local configuration
+*.psarc
+*.pkg
+*.gnf
+*.gcdv
+*.otf
+eboot.bin
+sce_sys/
+.gr2-xbox-backups/
+.env
+.env.*
+
+# Editor and OS metadata
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
