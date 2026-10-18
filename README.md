@@ -1,6 +1,6 @@
 # Gravity Rush 2 — Xbox Button Prompts
 
-Version **1.0.0** · **CUSA03694** · Update **01.11** · **Python 3.10+**
+Version **1.0.1** · **CUSA03694** · Update **01.11** · **Python 3.10+**
 
 An unofficial visual mod replacing selected PlayStation button prompt artwork with Xbox-style icons. **This changes prompt art, not controller bindings or input behavior.** Configure your controller in your emulator separately.
 
@@ -17,18 +17,19 @@ Close the game and emulator before installing or uninstalling. Automatic process
 
 ## What changes
 
-The manifest describes **27 differential resource patches** across the base and update archives:
+The manifest describes **31 differential resource patches** across the base and update archives:
 
 - A/B/X/Y in place of cross/circle/square/triangle, keeping their physical positions (cross → A, circle → B, square → X, triangle → Y).
 - LB/RB, LT/RT, and LS/RS prompts, including normal and highlighted variants.
 - Embedded control-settings artwork, including DLC control diagrams and Xbox letters on the central controller drawing.
 - An Xbox three-line Menu icon replacing OPTIONS in the return-to-game prompt.
+- Gesture-selection artwork using shared QTE textures: `qte_tbn_01` → B, `02` → A, `03` → X, `04` → Y. The gesture panel order is Y/B/X/A. These shared assets can also affect QTE prompts; bindings and layout are unchanged.
 
-The scope consists of four font/common resources, twenty standalone menu textures, two embedded settings containers, and one additional standalone OPTIONS texture. Exact archive member names are retained in `manifest.json`.
+The scope consists of four font/common resources, twenty standalone menu textures, two embedded settings containers, one additional standalone OPTIONS texture, and four shared gesture/QTE button textures. Exact archive member names are retained in `manifest.json`.
 
 **No bindings, saves, emulator settings, graphics configuration, or networking are changed.** The central controller silhouette remains DualShock-shaped; touchpad and D-pad icons remain. This does not promise replacement of every illustration or tutorial in the game.
 
-The source package reports in-game verification of the main control-settings screen. The final OPTIONS replacement was verified in the generated/installed resource, **but its in-game appearance remains unverified**. Packaging tests are not new gameplay or rendering tests.
+The source package reports in-game verification of the main control-settings screen. The final OPTIONS replacement was verified in the generated/installed resource, **but its in-game appearance remains unverified**. The v1.0.1 gesture/QTE artwork has resource-level verification only; **its in-game rendering is not yet verified**. Packaging tests are not new gameplay or rendering tests.
 
 ## Install on Windows
 
@@ -63,6 +64,10 @@ python3 mod.py check "/path/to/GRAVITY RUSH 2"
 ```
 
 The direct installer command is `python3 mod.py install "/path/to/GRAVITY RUSH 2"`.
+
+## Upgrade from v1.0.0
+
+Close the game/emulator and run the v1.0.1 installer against the same game folder. It recognizes the previous 27 target hashes and patches **only the four new gesture/QTE resources**. Keep both versions’ backup transactions. To remove the entire mod, uninstall the newest transaction first (restoring the v1.0.0 state), then uninstall the older active transaction(s). Do not restore an older backup while a newer transaction is still installed. A clean installation applies all 31 patches.
 
 ## Backups and uninstall
 
@@ -103,7 +108,7 @@ python3 -m py_compile mod.py psarc.py test_mod.py
 python3 mod.py --help
 ```
 
-The included unittest suite uses **synthetic two-archive fixtures**, testing install/check, idempotency, byte-exact uninstall, unknown-resource rejection before writing, wrong-version rejection, and rollback when the second archive fails. It does not contain original game assets or independently test all 27 real resource transformations or rendering. Delta payloads and manifest hashes are preserved from the source release.
+The included unittest suite uses **synthetic two-archive fixtures**, testing install/check, idempotency, byte-exact uninstall, unknown-resource rejection before writing, wrong-version rejection, and rollback when the second archive fails. An additional asset-free regression checks the four gesture entries and patch integrity. The public suite does not contain original game assets or independently test real transformations or rendering. Separate private verification reconstructed all 31 deltas against local original resources, compared their targets, and exercised install/readback/idempotency/byte-exact restore in disposable two-archive fixtures, including a v1.0.0-to-v1.0.1 upgrade. The previous 27 delta files are preserved byte-for-byte.
 
 `SHA256SUMS.txt` lists every distributable file except itself. On Linux, verify it from this folder with:
 

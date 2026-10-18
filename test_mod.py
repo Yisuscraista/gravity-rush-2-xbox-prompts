@@ -48,4 +48,22 @@ class PortableModTests(unittest.TestCase):
   with tempfile.TemporaryDirectory(dir=Path(__file__).parent) as td:
    package,game=self.fixture(Path(td));p=game/'sce_sys/param.sfo';p.write_bytes(p.read_bytes().replace(b'01.11',b'01.10'))
    with self.assertRaises(ValueError):check(game,package)
+class GesturePackageRegression(unittest.TestCase):
+ def test_gesture_manifest_and_delta_integrity_without_assets(self):
+  package=Path(__file__).parent
+  manifest=json.loads((package/'manifest.json').read_text())
+  self.assertEqual(manifest['version'],'1.0.1')
+  self.assertEqual(len(manifest['files']),31)
+  self.assertEqual(len({(r['archive'],r['name']) for r in manifest['files']}),31)
+  for i,row in enumerate(manifest['files'][-4:],1):
+   self.assertEqual(row['archive'],'Gravite2_Chunk0.psarc')
+   self.assertEqual(row['name'],f'gcd/qte_tbn_{i:02}.gnf')
+   raw=(package/row['delta']).read_bytes()
+   self.assertEqual(hashlib.sha256(raw).hexdigest(),row['delta_sha256'])
+   self.assertEqual(row['modified_size'],65792)
+   cursor=0
+   for start,end,encoded in json.loads(raw)['segments']:
+    self.assertTrue(cursor<=start<end<=65792)
+    self.assertEqual(len(base64.b64decode(encoded,validate=True)),end-start)
+    cursor=end
 if __name__=='__main__':unittest.main()

@@ -1,6 +1,6 @@
 {
   "name": "Gravity Rush 2 - Xbox Button Prompts",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "title_id": "CUSA03694",
   "app_ver": "01.11",
   "python_minimum": "3.10",
@@ -247,6 +247,42 @@
       "modified_size": 24832,
       "delta": "deltas/26.json",
       "delta_sha256": "e6cd78f9e724191515345c1ef4443342e1402b458daee50d02c946f8c7e68122"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/qte_tbn_01.gnf",
+      "original_sha256": "8c5ad623d736ddcfb79284bcf189bfad330b389a0dd4184bc5cc47ecd378a399",
+      "modified_sha256": "f57a708b7d809af405395a98c9f53c1d2a06bd3c2d4afad9291b4c6e8cc2d280",
+      "modified_size": 65792,
+      "delta": "deltas/27.json",
+      "delta_sha256": "103adbd2f8786a8b9504fc713c4afd3ecd85a4b985cb15f3808824a23082fdf9"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/qte_tbn_02.gnf",
+      "original_sha256": "6f7a9418f095778902bfdef56d63f84878f327764682b04a548697b993973b47",
+      "modified_sha256": "0a09a5685ba01e279931b345d88bf693ae87b9a29e9ab173f95f9e40b99939b2",
+      "modified_size": 65792,
+      "delta": "deltas/28.json",
+      "delta_sha256": "b62ca7213c5b67788e21fff5a5673a95f70566068d429a4b47cb953c57e9f4d8"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/qte_tbn_03.gnf",
+      "original_sha256": "c2ea0a027d05a6aee73e7135424ad93f5a5117446de02e559579b37ada8eee78",
+      "modified_sha256": "5edbaf37437c8d2118b61bd319968144c42223769e6cd3851721c93f3df9f638",
+      "modified_size": 65792,
+      "delta": "deltas/29.json",
+      "delta_sha256": "ca4323f294aaf6ad40a6e087b8a4ef9ecd13728fed1e071f84cdd0bf4db4f89a"
+    },
+    {
+      "archive": "Gravite2_Chunk0.psarc",
+      "name": "gcd/qte_tbn_04.gnf",
+      "original_sha256": "d0799171a0c1523154de5a89f547fcb1c0b50029a2691f9420a427c469c923f9",
+      "modified_sha256": "86861ba57d9eb1b58f5a4398e6dc359af94bc63053abf89dbab05cc93498daa8",
+      "modified_size": 65792,
+      "delta": "deltas/30.json",
+      "delta_sha256": "417e37654145e0848a30f70d0c8798268baf3df2c57090dfc1ea7f0a7c7480d9"
     }
   ]
 }
