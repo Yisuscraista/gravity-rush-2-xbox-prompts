@@ -120,6 +120,8 @@ The package contains installer source, differential patches, manifest, wrappers,
 
 This mod was created with AI assistance. Yisuscraista directed the work and tested the mod; Hermes/Jarvis is an AI tool, not a human collaborator or a GitHub account with repository access.
 
+**AI model used for the original mod development:** `gpt-6.1-sol`, accessed through the `openai-codex` provider in Hermes Agent. This is the model identifier recorded in the development session; it is distinct from Hermes/Jarvis, the agent framework.
+
 ## Legal and attribution notice
 
 This is an unofficial community modification, not affiliated with or endorsed by Sony Interactive Entertainment, PlayStation, Microsoft, or Xbox. Gravity Rush 2, PlayStation, DualShock, Xbox, and related names and marks belong to their respective owners. All third-party game content and marks remain the property of their owners. You must supply your own legally obtained game files.
