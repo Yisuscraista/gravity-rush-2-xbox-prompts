@@ -113,6 +113,13 @@ sha256sum -c SHA256SUMS.txt
 
 The package contains installer source, differential patches, manifest, wrappers, and tests only. It does not include whole game archives, original fonts/textures, saves, credentials, or personal machine paths. Do not add these to a public repository or bug report. When reporting an issue, include your Python version, OS, title/update version, command, and error text with personal paths removed.
 
+## Credits and AI assistance
+
+- **Yisuscraista** — project creator, direction, controller-layout decisions, and in-game testing.
+- **Hermes Agent (Nous Research), also known as Jarvis** — AI assistant used to help develop the Xbox-style prompt modifications, resource-patching tools, installer, tests, and documentation.
+
+This mod was created with AI assistance. Yisuscraista directed the work and tested the mod; Hermes/Jarvis is an AI tool, not a human collaborator or a GitHub account with repository access.
+
 ## Legal and attribution notice
 
 This is an unofficial community modification, not affiliated with or endorsed by Sony Interactive Entertainment, PlayStation, Microsoft, or Xbox. Gravity Rush 2, PlayStation, DualShock, Xbox, and related names and marks belong to their respective owners. All third-party game content and marks remain the property of their owners. You must supply your own legally obtained game files.
